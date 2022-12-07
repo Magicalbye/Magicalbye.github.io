@@ -1,26 +1,88 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <style>
-        .Background{
-        min-height: 100vh;
-        width:100%;
-        background-color:black;
-        padding:none;
-        background-image:url(https://giphy.com/gifs/rick-morty-portal-gun-shoot-funny-alex-bradt-n5GXsYKoe1F3eFcRgq);
-        background-position:center;
-        background-repeat:no-repeat;
-        background-size:70%;
+    <head>
+        <style>
+            button{
+                opacity: 0.5;
+                transition-duration: 0.6s;
+                size-adjust: 80%;
+                padding-top: 0;
+                padding-left: 0;
+                padding-right: 0;
+                padding-bottom: 0;
+                border:none;
 
-        }
-        body{
-        background-color:black;    
-        }
-    </style>    
-</head>
-<body>
- <div class="Background">
-
- </div>
-</body>
+                
+            }
+            img{
+                width: 300px;
+                height: 200px;
+                object-fit:cover;
+                vertical-align: bottom;
+                padding:none;
+                border:none;
+                
+                
+            }
+            button:hover{
+                opacity:1;
+                size-adjust: 90%;
+                
+            }
+            button:active{
+                size-adjust: 100%;
+                
+            }
+            
+            body{
+                background-color: black;
+                background-image: url(Background\ 2.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center ;
+                background-size: 800px;
+                font-family: Franklin Gothic Medium;
+                color:white;
+                text-align: center;
+                background-position:center;
+            }
+            .Grid-Container{
+                display:grid;
+                grid-template-columns: auto auto auto auto;
+                gap:5px;
+                padding: 10px;
+            }
+            .Hoem{
+            position: relative;
+            align-content: center;
+            }  
+            
+        </style>
+    </head>
+    <body>
+        <p><bold>THE VOID IS REAL</bold></p>
+        <br>
+        <br>
+        <section class="Grid-Container">
+            <form action="https://drive.google.com/drive/folders/1H24kc7ebrkfbAoTSNiTSaQjeEuWCaGAE" method="get" target="_blank">
+  <div><button><img src="Realations.webp"></button></div></form>
+  <form action="https://drive.google.com/drive/folders/1AGg2j0FvV0Eh4x93jFg46VbEjjdghPGP" method="get" target="_blank">
+  <div><button><img src="Recreational.jfif"></button></div></form>
+  <form action="https://drive.google.com/drive/folders/1_DSPm1MuOBDP7tkGKDLjqne8PcnN2sM6" method="get" target="_blank">
+  <div><button><img src="Finances.jpg"></button></div></form>
+  <form action="https://drive.google.com/drive/folders/1Uur06RtCS7lBH9utYlWzkTFLglI3wyv2" method="get" target="_blank">
+  <div><button><img src="Fitness.jfif"></button></div></form>
+  <form action="https://drive.google.com/drive/folders/1iDoJM6mBD653Sgoilu-lvNkW3Kc2tdT1" method="get" target="_blank">
+  <div><button><img src="Friends_Family.jfif"></button></div></form>
+  <form action="https://drive.google.com/drive/folders/1pQY97u5UeOmINw77VnWiT-mpRBZVyqNZ" method="get" target="_blank">
+  <div><button><img src="Personal_Spiritual.jfif"></button></div></form>
+  <form action="https://drive.google.com/drive/folders/13MOHEw1aesigCUDsr2JTf-3DDIQP-B2X" method="get" target="_blank">
+  <div><button><img src="Physical_Environment.jfif"></button></div></form>
+  <form action="https://drive.google.com/drive/folders/1Z1TnpR6e8Ivza-ECb1HecwCX-zE1E0xc" method="get" target="_blank">
+  <div><button><img src="Carrer_Business.jfif"></button></div></form>
+  </section>
+  <br>
+  <form action="https://drive.google.com/drive/folders/1RY2_MyFoXi4PhTG5f-Oy3HFoAOqwTG3S" methond="get" targer="_blank">
+  <div><button class="Hoem"><img src="Tools.jpg"></button></div></form>
+    </body>
 </html>
